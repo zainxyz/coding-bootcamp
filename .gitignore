@@ -1,0 +1,30 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies #
+################
+node_modules/
+
+# testing #
+###########
+.nyc_output/
+coverage/
+
+# prod #
+########
+build/
+
+# css #
+#######
+src/**/*.css
+
+# misc #
+########
+.DS_Store
+
+# etc #
+#######
+*.log
+*.tgz
+.vscode
+package-lock.json
+yarn.lock
