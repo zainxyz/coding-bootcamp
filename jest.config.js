@@ -5,7 +5,8 @@
  */
 const jestConfig = {
     testEnvironment: 'node',
-    testMatch      : ['<rootDir>/**/test.js']
+    testMatch      : ['<rootDir>/**/test.js'],
+    verbose        : true
 };
 
 module.exports = jestConfig;
