@@ -24,8 +24,6 @@ function anagrams(stringA, stringB) {
     return arrA === arrB;
 }
 
-module.exports = anagrams;
-
 // function genCharMap(str) {
 //     const charMap = {};
 //
@@ -52,3 +50,5 @@ module.exports = anagrams;
 //
 //     return true;
 // }
+
+export default anagrams;

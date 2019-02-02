@@ -1,4 +1,4 @@
-const repeatedChars = require('./index');
+import repeatedChars from './repeated-chars';
 
 describe('repeatedChars()', () => {
     it('repeatedChars function exists', () => {

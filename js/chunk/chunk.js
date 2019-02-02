@@ -28,8 +28,6 @@ function chunk(array, size) {
     return chunked;
 }
 
-module.exports = chunk;
-
 // Steps
 // - Create an empty array to hold the chunks called **chunked**
 // - For each element in the **un-chunked** array
@@ -55,3 +53,5 @@ module.exports = chunk;
 //
 //     return chunked;
 // }
+
+export default chunk;

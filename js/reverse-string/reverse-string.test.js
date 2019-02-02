@@ -1,4 +1,4 @@
-import reverse from './index';
+import reverse from './reverse-string';
 
 describe('reverseString()', () => {
     it('Reverse function exists', () => {

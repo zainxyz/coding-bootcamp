@@ -1,4 +1,4 @@
-const chunk = require('./index');
+import chunk from './chunk';
 
 describe('chunk()', () => {
     it('function chunk exists', () => {

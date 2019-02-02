@@ -1,4 +1,4 @@
-const anagrams = require('./index.js');
+import anagrams from './anagrams';
 
 describe('anagrams()', () => {
     it('anagrams function exists', () => {

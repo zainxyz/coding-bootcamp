@@ -35,4 +35,4 @@ function maxChar(str) {
     return max;
 }
 
-module.exports = maxChar;
+export default maxChar;

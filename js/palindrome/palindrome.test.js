@@ -1,4 +1,4 @@
-const palindrome = require('./index');
+import palindrome from './palindrome';
 
 describe('palindrome()', () => {
     it('palindrome function is defined', () => {

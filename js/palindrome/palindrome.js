@@ -11,8 +11,6 @@ function palindrome(str) {
     return str.split('').every((char, idx) => char === str[str.length - 1 - idx]);
 }
 
-module.exports = palindrome;
-
 // function palindrome(str) {
 //     const reversed = str
 //         .split('')
@@ -21,3 +19,5 @@ module.exports = palindrome;
 //
 //     return str === reversed;
 // }
+
+export default palindrome;

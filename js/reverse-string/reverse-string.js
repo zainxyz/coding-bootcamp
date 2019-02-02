@@ -10,8 +10,6 @@ function reverse(str) {
     return str.split('').reduce((res, char) => `${char}${res}`, '');
 }
 
-export default reverse;
-
 // function reverse(str) {
 //     return str
 //         .split('')
@@ -28,3 +26,5 @@ export default reverse;
 //
 //     return reversed;
 // }
+
+export default reverse;

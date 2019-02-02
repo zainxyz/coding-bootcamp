@@ -1,4 +1,4 @@
-const maxChar = require('./index');
+import maxChar from './max-char';
 
 describe('maxChar()', () => {
     it('maxChar function exists', () => {

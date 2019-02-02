@@ -23,4 +23,4 @@ function repeatedChars(str) {
     return repeated;
 }
 
-module.exports = repeatedChars;
+export default repeatedChars;

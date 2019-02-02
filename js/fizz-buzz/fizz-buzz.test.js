@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 
-const fizzBuzz = require('./index');
+import fizzBuzz from './fizz-buzz';
 
 describe('fizzBuzz()', () => {
     beforeEach(() => {

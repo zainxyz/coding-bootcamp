@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 // --- Directions
 // Write a program that console logs the numbers
 // from 1 to n. But for multiples of three print
@@ -46,4 +48,4 @@ function fizzBuzz(n) {
 //     }
 // }
 
-module.exports = fizzBuzz;
+export default fizzBuzz;

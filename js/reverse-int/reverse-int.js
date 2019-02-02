@@ -20,4 +20,4 @@ function reverseInt(n) {
     return parseInt(reversed, 10) * sign;
 }
 
-module.exports = reverseInt;
+export default reverseInt;
