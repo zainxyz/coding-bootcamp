@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-
 // --- Directions
 // Write a program that console logs the numbers
 // from 1 to n. But for multiples of three print
@@ -16,9 +14,11 @@
 
 function fizzBuzz(n) {
     // Create an array from 0 - (n + 1)
-    const arr = Array.from(new Array(n + 1).keys());
+    // const arr = Array.from(new Array(n + 1).keys());
+    // const arr = [...Array(n + 1).keys()];
     // Remove the first element '0' from the arr
-    arr.shift();
+    // arr.shift();
+    const arr = [...Array(n).keys()].map(x => ++x);
     // Determine what we need to log for each of the element
     // of the array
     for (let num of arr) {

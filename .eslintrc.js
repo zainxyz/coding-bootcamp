@@ -64,7 +64,7 @@ module.exports = {
                 align: 'colon'
             }
         ],
-        'no-console': 'warn',
+        'no-console': 'off',
         'no-template-curly-in-string': 'off',
         'no-undef': 'warn',
         'no-underscore-dangle': 0,

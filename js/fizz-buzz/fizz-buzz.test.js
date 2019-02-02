@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-
 import fizzBuzz from './fizz-buzz';
 
 describe('fizzBuzz()', () => {
