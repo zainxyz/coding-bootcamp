@@ -1,12 +1,10 @@
 // --- Directions
-// Given a string, return the character that is most
-// commonly used in the string.
-//
-// What is the most common character in the string?
+// (maxChar)
+// 1. Given a string, return the character that is most
+//    commonly used in the string.
+// 2. What is the most common character in the string?
 //
 // Does string A have the same characters as string B (is it an anagram)?
-//
-// Does the given string have any repeated characters in it?
 //
 // --- Examples
 // maxChar("abcccccccd") === "c"
