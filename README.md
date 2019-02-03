@@ -37,6 +37,34 @@ JavaScript natively implements several data structures. **You will still be aske
 3. [Queue from Stack](./js/queue-from-stack/queue-from-stack.js)
 4. [Weave (example)](./js/weave/weave.js)
 
+### Queue
+
+A Queue is a linear data structure in which the order is First In First Out (FIFO). An example of a queue is a restaurant wait list, where the customer that came first is served first.
+
+- **Enqueue** - Add an item to the queue.
+- **Dequeue** - Remove an item from the queue.
+- **Front** - Get the front / first item from the queue.
+- **Rear** - Get the rear / last item from the queue.
+
+### Stack
+
+A Stack is a linear data structure in which the order is First In Last Out (FILO) or Last In First Out (LIFO). An example of a queue is the plates that are stacked on top of one another at a restaurant. The plate which is at the top is the first one to be removed, whereas the plate that is at the bottommost position is the last to be removed.
+
+- **Push** - Add an item to the stack.
+- **Pop** - Remove an item from the stack.
+- **Peek** or **Top** - Returns the top item from the stack.
+- **isEmpty** - Returns `true` if the stack is empty, else `false`.
+
+### Linked Lists
+
+A Linked List is an ordered collection of data. The collection contains a number of different nodes. Each node contains some amount of data, along with a reference to the next node.
+
+Two special nodes in a Linked List are **Head** node, the very first node, and the **Tail** node, the very last node. The **tail** node can be identified as it does not have a reference to any other node.
+
+Each node has two parts, **data** which can be any valid JavaScript value, and a **reference** to the next node in the list.
+
+As long as you have some number of data and you form some type of connection between them, you can refer to them being a Linked List.
+
 ## Memoization
 
 Store the arguments of each `fn` call along with the `result`.
