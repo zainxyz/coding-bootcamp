@@ -57,4 +57,4 @@ function capitalize(str) {
     return arr.map(a => `${a[0].toUpperCase()}${a.slice(1)}`).join(' ');
 }
 
-module.exports = capitalize;
+export default capitalize;
