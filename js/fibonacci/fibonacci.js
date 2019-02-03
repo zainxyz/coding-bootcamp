@@ -8,7 +8,7 @@
 // Example:
 //   fib(4) === 3
 
-import memoize from 'js/memoization';
+import memoize from 'js/memoize';
 
 // eslint-disable-next-line import/no-mutable-exports
 let fib;
