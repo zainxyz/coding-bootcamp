@@ -4,25 +4,25 @@ Let's go to the Coding Bootcamp together!!!
 
 ## List of Exercises
 
-1. [Anagrams](./anagrams/anagrams.js) - One string is an anagram of another if it uses the same characters in the same quantity.
-2. [Capitalize](./capitalize/capitalize.js) - Capitalize the first letter of each word in the string.
-3. [Chunk](./chunk/chunk.js) - Given an Array and a **chunk** size, divide the Array into many sub-Arrays where each sub-Array is of length **chunk** size.
-4. [Fibonacci](./fibonacci/fibonacci.js) - Print out the n-th entry in the **Fibonacci** series. The **Fibonacci** series is an ordering of numbers where each number is the sum of the preceeding two.
-5. [Fizz-Buzz](./fizz-buzz/fizz-buzz.js) - Console.log numbers from 1 to n; but, for multiples of 3 (three) print **fizz**, for multiples of 5 (five) print **buzz**, and for multiples of both 3 (three) and 5 (five) print **fizzbuzz** instead of the number.
-6. [Matrix](./matrix/matrix.js) - Write a function that accepts an integer `n` and returns an `n x n` spiral matrix.
-7. [Max Chars](./max-char/max-char.js) - Given a string, return the character that is most commonly used in the string. / What is the most common character in the string?
-8. [Memoize](./memoize/memoize.js) - Memoize a function, **cache** its results, and return result from **cache** if present.
-9. [Palindrome](./palindrome/palindrome.js) - Palindromes are strings that form the same word if it they are reversed.
-10. [Pyramid](./pyramid/pyramid.js) - Write a function that accepts a positive number `n`, then Console.log a **pyramid** shape with `n` levels using the `#` (hash) character. Make sure the **pyramid** has spaces on both the left and right hand sides.
-11. [Queue](./queue/queue.js) - Create a Queue data-structure, where items are in the **First In First Out** order (FIFO).
-12. [Queue from Stack](./queue-from-stack/queue-from-stack.js) - Implement a Queue data-structure using two Stacks.
-13. [Repeated Chars](./repeated-chars/repeated-chars.js) - Does the given string have any repeated characters in it?
-14. [Reverse Int](./reverse-int/reverse-int.js) - Given an integer, return an integer that is the reverse ordering of the numbers.
-15. [Reverse String](./reverse-string/reverse-string.js) - Given a string, return a new string with the reversed ordering of the characters.
-16. [Stack](./stack/stack.js) - Create a Stack data-structure, where items are in the **First In Last Out** order (FILO).
-17. [Steps](./steps/steps.js) - Write a function that accepts a positive number `n`, then Console.log a **step** shape with `n` levels using the `#` (hash) character. Make sure the step has spaces on the right hand side.
-18. [Vowels](./vowels/vowels.js) - Write a function that returns the number of **vowels** used in a string.
-19. [Weave](./weave/weave.js) - A **weave** receives two Queues as arguments and combines the contents of each into a new, third Queue. The third Queue contains the **alternating** content of the two queues.
+1. [Anagrams](./js/anagrams/anagrams.js) - One string is an anagram of another if it uses the same characters in the same quantity.
+2. [Capitalize](./js/capitalize/capitalize.js) - Capitalize the first letter of each word in the string.
+3. [Chunk](./js/chunk/chunk.js) - Given an Array and a **chunk** size, divide the Array into many sub-Arrays where each sub-Array is of length **chunk** size.
+4. [Fibonacci](./js/fibonacci/fibonacci.js) - Print out the n-th entry in the **Fibonacci** series. The **Fibonacci** series is an ordering of numbers where each number is the sum of the preceeding two.
+5. [Fizz-Buzz](./js/fizz-buzz/fizz-buzz.js) - Console.log numbers from 1 to n; but, for multiples of 3 (three) print **fizz**, for multiples of 5 (five) print **buzz**, and for multiples of both 3 (three) and 5 (five) print **fizzbuzz** instead of the number.
+6. [Matrix](./js/matrix/matrix.js) - Write a function that accepts an integer `n` and returns an `n x n` spiral matrix.
+7. [Max Chars](./js/max-char/max-char.js) - Given a string, return the character that is most commonly used in the string. / What is the most common character in the string?
+8. [Memoize](./js/memoize/memoize.js) - Memoize a function, **cache** its results, and return result from **cache** if present.
+9. [Palindrome](./js/palindrome/palindrome.js) - Palindromes are strings that form the same word if it they are reversed.
+10. [Pyramid](./js/pyramid/pyramid.js) - Write a function that accepts a positive number `n`, then Console.log a **pyramid** shape with `n` levels using the `#` (hash) character. Make sure the **pyramid** has spaces on both the left and right hand sides.
+11. [Queue](./js/queue/queue.js) - Create a Queue data-structure, where items are in the **First In First Out** order (FIFO).
+12. [Queue from Stack](./js/queue-from-stack/queue-from-stack.js) - Implement a Queue data-structure using two Stacks.
+13. [Repeated Chars](./js/repeated-chars/repeated-chars.js) - Does the given string have any repeated characters in it?
+14. [Reverse Int](./js/reverse-int/reverse-int.js) - Given an integer, return an integer that is the reverse ordering of the numbers.
+15. [Reverse String](./js/reverse-string/reverse-string.js) - Given a string, return a new string with the reversed ordering of the characters.
+16. [Stack](./js/stack/stack.js) - Create a Stack data-structure, where items are in the **First In Last Out** order (FILO).
+17. [Steps](./js/steps/steps.js) - Write a function that accepts a positive number `n`, then Console.log a **step** shape with `n` levels using the `#` (hash) character. Make sure the step has spaces on the right hand side.
+18. [Vowels](./js/vowels/vowels.js) - Write a function that returns the number of **vowels** used in a string.
+19. [Weave](./js/weave/weave.js) - A **weave** receives two Queues as arguments and combines the contents of each into a new, third Queue. The third Queue contains the **alternating** content of the two queues.
 
 --------------------------------------------------------------------------------
 
