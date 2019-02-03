@@ -9,20 +9,21 @@ Let's go to the Coding Bootcamp together!!!
 3. [Chunk](./js/chunk/chunk.js) - Given an Array and a **chunk** size, divide the Array into many sub-Arrays where each sub-Array is of length **chunk** size.
 4. [Fibonacci](./js/fibonacci/fibonacci.js) - Print out the n-th entry in the **Fibonacci** series. The **Fibonacci** series is an ordering of numbers where each number is the sum of the preceeding two.
 5. [Fizz-Buzz](./js/fizz-buzz/fizz-buzz.js) - Console.log numbers from 1 to n; but, for multiples of 3 (three) print **fizz**, for multiples of 5 (five) print **buzz**, and for multiples of both 3 (three) and 5 (five) print **fizzbuzz** instead of the number.
-6. [Matrix](./js/matrix/matrix.js) - Write a function that accepts an integer `n` and returns an `n x n` spiral matrix.
-7. [Max Chars](./js/max-char/max-char.js) - Given a string, return the character that is most commonly used in the string. / What is the most common character in the string?
-8. [Memoize](./js/memoize/memoize.js) - Memoize a function, **cache** its results, and return result from **cache** if present.
-9. [Palindrome](./js/palindrome/palindrome.js) - Palindromes are strings that form the same word if it they are reversed.
-10. [Pyramid](./js/pyramid/pyramid.js) - Write a function that accepts a positive number `n`, then Console.log a **pyramid** shape with `n` levels using the `#` (hash) character. Make sure the **pyramid** has spaces on both the left and right hand sides.
-11. [Queue](./js/queue/queue.js) - Create a Queue data-structure, where items are in the **First In First Out** order (FIFO).
-12. [Queue from Stack](./js/queue-from-stack/queue-from-stack.js) - Implement a Queue data-structure using two Stacks.
-13. [Repeated Chars](./js/repeated-chars/repeated-chars.js) - Does the given string have any repeated characters in it?
-14. [Reverse Int](./js/reverse-int/reverse-int.js) - Given an integer, return an integer that is the reverse ordering of the numbers.
-15. [Reverse String](./js/reverse-string/reverse-string.js) - Given a string, return a new string with the reversed ordering of the characters.
-16. [Stack](./js/stack/stack.js) - Create a Stack data-structure, where items are in the **First In Last Out** order (FILO).
-17. [Steps](./js/steps/steps.js) - Write a function that accepts a positive number `n`, then Console.log a **step** shape with `n` levels using the `#` (hash) character. Make sure the step has spaces on the right hand side.
-18. [Vowels](./js/vowels/vowels.js) - Write a function that returns the number of **vowels** used in a string.
-19. [Weave](./js/weave/weave.js) - A **weave** receives two Queues as arguments and combines the contents of each into a new, third Queue. The third Queue contains the **alternating** content of the two queues.
+6. [Linked Lists](./js/linked-list/linked-list.js) - Implement the Linked List type data structure with multiple methods.
+7. [Matrix](./js/matrix/matrix.js) - Write a function that accepts an integer `n` and returns an `n x n` spiral matrix.
+8. [Max Chars](./js/max-char/max-char.js) - Given a string, return the character that is most commonly used in the string. / What is the most common character in the string?
+9. [Memoize](./js/memoize/memoize.js) - Memoize a function, **cache** its results, and return result from **cache** if present.
+10. [Palindrome](./js/palindrome/palindrome.js) - Palindromes are strings that form the same word if it they are reversed.
+11. [Pyramid](./js/pyramid/pyramid.js) - Write a function that accepts a positive number `n`, then Console.log a **pyramid** shape with `n` levels using the `#` (hash) character. Make sure the **pyramid** has spaces on both the left and right hand sides.
+12. [Queue](./js/queue/queue.js) - Create a Queue data-structure, where items are in the **First In First Out** order (FIFO).
+13. [Queue from Stack](./js/queue-from-stack/queue-from-stack.js) - Implement a Queue data-structure using two Stacks.
+14. [Repeated Chars](./js/repeated-chars/repeated-chars.js) - Does the given string have any repeated characters in it?
+15. [Reverse Int](./js/reverse-int/reverse-int.js) - Given an integer, return an integer that is the reverse ordering of the numbers.
+16. [Reverse String](./js/reverse-string/reverse-string.js) - Given a string, return a new string with the reversed ordering of the characters.
+17. [Stack](./js/stack/stack.js) - Create a Stack data-structure, where items are in the **First In Last Out** order (FILO).
+18. [Steps](./js/steps/steps.js) - Write a function that accepts a positive number `n`, then Console.log a **step** shape with `n` levels using the `#` (hash) character. Make sure the step has spaces on the right hand side.
+19. [Vowels](./js/vowels/vowels.js) - Write a function that returns the number of **vowels** used in a string.
+20. [Weave](./js/weave/weave.js) - A **weave** receives two Queues as arguments and combines the contents of each into a new, third Queue. The third Queue contains the **alternating** content of the two queues.
 
 --------------------------------------------------------------------------------
 
@@ -32,10 +33,11 @@ Ways of organizing information with an optimal **runtime complexity** for adding
 
 JavaScript natively implements several data structures. **You will still be asked about _inferior_ data structures**
 
-1. [Queue](./js/queue/queue.js)
-2. [Stack](./js/stack/stack.js)
-3. [Queue from Stack](./js/queue-from-stack/queue-from-stack.js)
-4. [Weave (example)](./js/weave/weave.js)
+1. [Linked List](./js/linked-list/linked-list.js)
+2. [Queue](./js/queue/queue.js)
+3. [Stack](./js/stack/stack.js)
+4. [Queue from Stack](./js/queue-from-stack/queue-from-stack.js)
+5. [Weave (example)](./js/weave/weave.js)
 
 ### Queue
 
