@@ -59,8 +59,7 @@
         "url": "git+https://github.com/zainxyz/coding-bootcamp.git"
     },
     "scripts": {
-        "test": "jest",
-        "watch": "jest --watch"
+        "test": "jest --watch"
     },
     "version": "1.0.0"
 }
