@@ -67,6 +67,43 @@ Each node has two parts, **data** which can be any valid JavaScript value, and a
 
 As long as you have some number of data and you form some type of connection between them, you can refer to them being a Linked List.
 
+### Trees
+
+A tree consists of multiple **nodes** that hold some **data** and hold reference to all of its **children**. A child is any node that is directly under any given node. There is a parent - to - child relationship between nodes, and sibling relationship between the children of the parent.
+
+#### Tree Traversal
+
+Iterating through all the different elements within a tree. Similar to that behavior of LinkedLists. We really care about our ability to iterate through all the different elements within a tree.
+
+**Different ways of Tree Traversal**
+
+Does a way of traversing down a Tree matter? **Yes, it does!** Just think of a tree as a hierarchy of the top level executives at a company. You have the following:
+
+```bash
+- CEO
+    - CTO
+        - VP Engineering
+        - VP Infrastructure
+        - VP Design
+    - CMO
+    - COO
+        - Product Manager
+```
+
+In the tree above, the order matters.
+
+`Breath-First` If you were to go through all of the positions in this company, based on the order of their position / order of importance / order of their hierarchy in the organization; then it would be CEO, CTO, CMO, COO, VP Engineering, VP Infrastructure, VP Design, and Product Manager.
+
+#### Breath-First Tree Traversal
+
+Iterate through each level of the tree from left-to-right.
+
+#### Depth-First Tree Traversal
+
+Start from the top of the Tree and iterate through the very first child, then its children, and so on and so forth, until you reach the very last child. Then go back up the tree and through the immediate second child, and so on.
+
+With Depth-First Traversal we try to get to the bottom of the tree as fast as possible.
+
 ## Memoization
 
 Store the arguments of each `fn` call along with the `result`.
