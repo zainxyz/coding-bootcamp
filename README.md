@@ -104,6 +104,24 @@ Start from the top of the Tree and iterate through the very first child, then it
 
 With Depth-First Traversal we try to get to the bottom of the tree as fast as possible.
 
+### Binary Search Tree
+
+In a Binary Search Tree, every node can have at most 2 children. We refer to these two children by their position relative to the parent, i.e. left-node or right-node.
+
+The term `search` in a Binary Search Tree, places the requirement on the values to the left and right hand side of the parent node.
+
+You can restrict or validate the values of every single node. (create a pattern)
+
+**Interview Question**
+
+> How to add new nodes into an existing Binary Search Tree?
+
+- Check the value of the newly to be added Node and traverse through the tree, validating for each of the current nodes (including the root node), then going Left or Right depending on the outcome of the validation.
+
+> Are you working with a Binary Search Tree? Validate a Binary Search Tree.
+
+- Traverse through the tree and validate each node to the Left and Right hand side.
+
 ## Memoization
 
 Store the arguments of each `fn` call along with the `result`.
