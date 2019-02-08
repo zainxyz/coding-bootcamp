@@ -195,3 +195,13 @@ How much more memory is required by doubling the problem set?
 - **Possible Implementation** (how would you build the user feed, or the possible who you should follow features)
 - **Identify and Address Difficulties** (what does the tweet look like in the database? how to make the #topic and @mention systems? How to implement retweets?) (what are the most possible tweets that we want to surface to the user when they first log into the application)
 - **Solutions for Scaling** (caching data and deployment options) (for each user when they come to the server, calculate the user's feeds, also store them in some memory store. pull out the previous request from memory store and send back to the user) (load balancer, with multiple servers - horizontal scaling)
+
+--------------------------------------------------------------------------------
+
+## Sorting
+
+Name          | Worst Case Runtime | Difficulty
+------------- | ------------------ | ----------
+BubbleSort    | `n^2`              | easiest
+SelectionSort | `n^2`              | easier
+MergeSort     | `n*log(n)`         | medium
