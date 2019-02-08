@@ -176,3 +176,22 @@ Searching a sorted array?                                                       
 ### Space Complexity
 
 How much more memory is required by doubling the problem set?
+
+--------------------------------------------------------------------------------
+
+## How would you design Twitter?
+
+### Things to keep in mind
+
+- **There is no right answer.** (ebay, uber, twitter are built by thousands of devs, cannot have a single concrete answer)
+- **Every interviewer will expect a different answer.** (a. how would you identify challenges in the product. b. how would you scale out the product for millions of users.)
+- **Focus is usually on the `data` model.** (how would you build out a database to reflect all the information for the given product. how would you store tweets or users on the database? how the web user interface should be put together. Don't talk about the technologies that you would use, but focus on why you would use them.)
+- **Draw stuff out on the board.** (draw out the main UI, mobile screen, help guide the discussion and it'll help you understand how to develop the product)
+- **Talk. Communicate.** (voice what you are thinking. respond and give back an instant question.)
+
+### Strategy
+
+- **Identify 2 (two) Core Features** (pick out 2 core features and start to think about possible ways of implementing them)
+- **Possible Implementation** (how would you build the user feed, or the possible who you should follow features)
+- **Identify and Address Difficulties** (what does the tweet look like in the database? how to make the #topic and @mention systems? How to implement retweets?) (what are the most possible tweets that we want to surface to the user when they first log into the application)
+- **Solutions for Scaling** (caching data and deployment options) (for each user when they come to the server, calculate the user's feeds, also store them in some memory store. pull out the previous request from memory store and send back to the user) (load balancer, with multiple servers - horizontal scaling)
