@@ -2,6 +2,42 @@
 
 Let's go to the Coding Bootcamp together!!!
 
+> Data Structures + Algorithms = Programs!
+
+`Data Structures` are ways to store the data, and `Algorithms` are functions or ways to use the data structures to write our `Programs`.
+
+Good programmers pick the right **data structure**, the right **algorithm**, to write good **programs**.
+
+## What is good code?
+
+> Readable and Scalable.
+
+1. Readability - Is your code clean, can others understand your code?
+2. Scalability - Can your code scale?
+
+Scalability can be divided further into...
+
+1. Speed - How fast is our runtime on the code? How much time does it take for a function to run?
+2. Memory - Computers have a limited memory.
+
+## 3 Pillars of Code
+
+### Readable
+
+Write readable, clean code that others can read, and that is maintainable.
+
+### Speed
+
+> Time Complexity
+
+Type of code that we call time complexity, has a `Big O` time complexity that is scaleable.
+
+### Memory
+
+> Space Complexity
+
+What is the memory usage of code? Does it use a lot of memory?
+
 ## List of Exercises
 
 1. [Anagrams](./js/anagrams/anagrams.js) - One string is an anagram of another if it uses the same characters in the same quantity.
