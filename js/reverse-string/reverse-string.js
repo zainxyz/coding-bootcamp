@@ -6,8 +6,13 @@
 //   reverse('hello') === 'olleh'
 //   reverse('Greetings!') === '!sgniteerG'
 
-function reverse(str) {
-    return str.split('').reduce((res, char) => `${char}${res}`, '');
+function reverse(str = '') {
+    // if (!str || str.length < 2 || typeof str !== 'string') {
+    //     return '';
+    // }
+
+    // return str.split('').reduce((res, char) => `${char}${res}`, '');
+    return [...str].reduce((res, char) => `${char}${res}`, '');
 }
 
 // function reverse(str) {

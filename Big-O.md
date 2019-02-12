@@ -138,3 +138,10 @@ function printAllNumbersThenAllPairSums(numbers) {
 2. Data Structures
 3. Function Call
 4. Allocations
+
+## Arrays
+
+- Lookup `O(1)`
+- Push `O(1)`
+- Insert `O(n)`
+- Delete `O(n)`
