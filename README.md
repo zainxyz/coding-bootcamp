@@ -140,6 +140,13 @@ Start from the top of the Tree and iterate through the very first child, then it
 
 With Depth-First Traversal we try to get to the bottom of the tree as fast as possible.
 
+- If you know a solution is not far from the root of the tree : **BFS**
+- If the tree is very deep and solutions are rare : **BFS** (as DFS would take too long to go through each side of the tree)
+- If tree is very wide : **DFS** (as BFS will need too much memory)
+- If solutions are frequent but located deep in the tree : **DFS**
+- Determine whether a path exists between two nodes : **DFS**
+- Finding the shortest path : **BFS**
+
 ### Binary Search Tree
 
 In a Binary Search Tree, every node can have at most 2 children. We refer to these two children by their position relative to the parent, i.e. left-node or right-node.
