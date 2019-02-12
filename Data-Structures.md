@@ -32,6 +32,8 @@ Think of a Data Structure as a container for storing items. Such as a backpack, 
 - Breadth-First Traversal (BFS) + Depth-First Traversal (DFS) (searching)
 - Recursion
 
+--------------------------------------------------------------------------------
+
 # Arrays
 
 ## Static vs Dynamic
@@ -40,6 +42,8 @@ Static Arrays mean that they're fixed in size. You should specify the number of 
 
 Dynamic Arrays allow us to copy and rebuild the array at a new location.
 
+--------------------------------------------------------------------------------
+
 # Objects
 
 ## Reference Type
@@ -47,3 +51,19 @@ Dynamic Arrays allow us to copy and rebuild the array at a new location.
 ## Context
 
 ## Instantiation
+
+--------------------------------------------------------------------------------
+
+# Hash Tables
+
+`key` is used as the index to find the value in memory.
+
+## Hash Function
+
+A **hash function** is a function that generates a value of fixed length for each input that it gets.
+
+## Collisions
+
+Since we have limited memory to store our data, at times we will have collisions where we store more than one data in the same memory allocation.
+
+To solve hash table collisions, we can use linked-lists, that way we will keep the initial value in the hash table, but link out all the extra, outer values, as a linked list.
